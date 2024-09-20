@@ -1,0 +1,97 @@
+header{
+    background-color: #adadad;
+    height: 100vh;
+    background-image: url(log2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #adadad;
+    background-blend-mode: multiply;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo h2 {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav ul li {
+    display: inline;
+    color: #ffffff;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .nav ul li a:hover {
+    color: #007BFF;
+  }
+  
+  .button button {
+    padding: 10px 20px;
+    background-color: rgba(0, 123, 255, 0.3); /* Slightly transparent blue */
+    color: #ffffff; /* Keep the text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .button button:hover {
+    background-color: rgba(0, 123, 255, 0.8); /* Less transparent on hover */
+    color: #fff; /* White text on hover */
+  }
+  .search{
+    width: 30%;
+    margin:20% auto ;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .search input{
+    padding: 10px;
+    padding-left: 40px; /* Make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+  }
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    color: #aaa;
+    pointer-events: none; 
+  }
+  /* for the footer */
+  footer{
+    background-color: #161616;    
+  }
+  footer .top{
+    height: 40vh;
+    padding: 32px;
+  }
+  footer .logo h2{
+    font-size: 3em;
+  }
+  footer .bottom{
+    border-top: 2px solid #ffffff;
+    width: 100%;
+    height: 10vh;
+  }
