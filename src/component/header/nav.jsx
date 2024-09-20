@@ -1,8 +1,8 @@
 import React from 'react';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-const Nav = () => {
+const Header = () => {
   return (
     <nav>
       <div className="logo">
@@ -10,9 +10,11 @@ const Nav = () => {
       </div>
       <div className="nav">
         <ul>
-          <li><Link to="/consultancy">Consultancy</Link></li>
-          <li><Link to="/catalog">Catalog</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/gallery">Gallery</Link></li>
+          <li><Link to="/catalog">Catalog</Link></li>
+          <li><Link to="/consultancy">Consultancy</Link></li>
+          <li><Link to="/dashbord">Dashboard</Link></li>
           <li><Link to="/cart"><ShoppingCartIcon /></Link></li>
           <li><Link to="/login">Login</Link></li>
         </ul>
@@ -24,6 +26,4 @@ const Nav = () => {
   );
 }
 
-export default Nav;
-
-
+export default Header;

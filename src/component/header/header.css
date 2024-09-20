@@ -58,12 +58,21 @@ nav {
     background-color: rgba(0, 123, 255, 0.8); /* Less transparent on hover */
     color: #fff; /* White text on hover */
   }
+  .hed{
+    margin:15% auto ;   
+  }
+  .textdeche{
+    text-align: center;
+    color: #ffffff;
+    margin: 10px 0;
+    font-size: 3em;
+  }
   .search{
     width: 30%;
-    margin:20% auto ;
-    position: relative;
     display: flex;
+    position: relative;
     align-items: center;
+    margin: auto;
   }
   .search input{
     padding: 10px;
